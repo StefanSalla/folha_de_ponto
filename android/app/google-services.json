@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "526485131653",
+    "project_id": "folha-de-ponto-58d17",
+    "storage_bucket": "folha-de-ponto-58d17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526485131653:android:ee11bdb17d07e84ec374ec",
+        "android_client_info": {
+          "package_name": "br.com.salla.ficha_de_ponto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuLcGMYtQRZ8DbGIcbvqDj5iYRVyMk8vA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526485131653:android:5fec150c601cb4ffc374ec",
+        "android_client_info": {
+          "package_name": "br.com.salla.ficha_de_ponto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuLcGMYtQRZ8DbGIcbvqDj5iYRVyMk8vA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
