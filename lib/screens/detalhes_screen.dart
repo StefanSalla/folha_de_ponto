@@ -8,7 +8,7 @@ import 'package:provider/provider.dart';
 class DetalhesScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final int pontoId = ModalRoute.of(context)!.settings.arguments as int;
+    final String pontoId = ModalRoute.of(context)!.settings.arguments as String;
     final Ponto ponto = Provider.of<PontosProvider>(context, listen: false).obterPontoPorId(pontoId);
 
     final nome = ponto.nome;
@@ -54,7 +54,7 @@ class DetalhesScreen extends StatelessWidget {
               const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: () {
-                  Provider.of<PontosProvider>(context, listen: false).deletarPonto(ponto.id);
+                  Provider.of<PontosProvider>(context, listen: false).delete(ponto.id);
                   Navigator.pop(context);
                 },
                 child: const Row(

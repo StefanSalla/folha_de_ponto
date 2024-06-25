@@ -54,6 +54,7 @@ class SigninScreen extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {
                   Navigator.pushNamed(context, Routes.SIGNUP);
+                  
                 },
                 child: const Text("Cadastrar-se"),
               ),
